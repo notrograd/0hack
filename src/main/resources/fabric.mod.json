@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "zerohack",
+  "version": "private stable 1.7",
+  "name": "0hack ",
+  "description": "block game utility client",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "org.sapporo.client.Sapporo"
+    ]
+  },
+  "mixins": [
+    "sapporo.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
